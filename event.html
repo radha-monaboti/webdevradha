@@ -1,0 +1,33 @@
+<html >
+<head>
+    <title>Event Listener Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Event Listener Demo</h1>
+    <button id="myButton">Click Me</button>
+    <div id="message"></div>
+
+    <script>
+       
+        var button = document.getElementById("myButton");
+        var message = document.getElementById("message");
+        button.addEventListener("click", function() {
+            message.innerHTML = "You clicked the button using an event listener!";
+        });
+    </script>
+
+</body>
+</html>
