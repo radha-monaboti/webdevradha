@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class ArithmeticOperations{
+Scanner scanner=new Scanner(System.in);
+System.out.println("Enter First number:");
+double num1=Scanner.nextDoblr();
+System.out.println("Enter Second number:")
