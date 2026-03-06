@@ -1,0 +1,19 @@
+ p{
+     color: rgb(132, 34, 223);
+     background-color: rgb(21, 226, 206);
+     border:brown;
+     border-width:50px ;
+     height: 50px;
+     font-weight: 100px;
+     font-family: 'Times New Roman', Times, serif;
+     table-layout: inherit;
+     text-align: center;
+}
+div{
+    color: aqua;
+    background-color: rgb(22, 19, 74);
+    text-align: center;
+    text-decoration-color: crimson;
+    height:100px;
+    font-display: var(rgb);
+}
